@@ -1,13 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Daniels
-    Theme URI: http://
-    Description: Portfolio Onepage Template
-    Author: creativotheme
-    Author URI: http://themeforest.net/user/creativotheme
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
 
 /* ----------------------------------------------------------------
 
@@ -45,6 +36,10 @@ body {
 .section-head {
     margin-bottom: 80px;
     text-align: center;
+}
+
+.purple{
+        color: #B721FF;  
 }
 
 .section-head h3 {
@@ -460,10 +455,12 @@ p {
     box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     border-radius: 5px;
+    min-width: 100% !important;
+    width: 100% !important;
 }
 
 .services .item:hover .icon {
-    background: #1c1c1c;
+    background: #ddd;
     color: #eee;
 }
 
@@ -623,6 +620,14 @@ p {
                      Numbers 
 -------------------------------------------------------- */
 
+.numbers {
+    background: #B721FF;
+    color: #eee;
+}
+.numbers p{
+    color: #eee;
+}
+
 .numbers .icon {
     font-size: 30px;
     margin-bottom: 15px;
@@ -637,6 +642,7 @@ p {
     font-weight: 600;
     margin-bottom: 30px;
 }
+
 
 /* -------------------------------------------------------
                      Blog 
@@ -949,7 +955,7 @@ p {
 }
 
 .contact .info .item:hover .icon {
-    background: #1c1c1c;
+    background: #ddd;
     color: #eee;
 }
 
@@ -1209,6 +1215,7 @@ body{
     padding: 0 5rem;
     text-align: center;
     color:#fff
+    
 }
 .about-right h1{
     font-size: 5rem;
@@ -1250,6 +1257,17 @@ body{
     background: transparent;
     border-color: #fff;
     color: #fff;
+}
+.btn.btn-purple{
+    background: #B721FF;
+    color: #fff;
+    border-color: #B721FF;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-purple:hover{
+    background: transparent;
+    border-color: #B721FF;
+    color: #B721FF;
 }
 .btn.btn-white{
     transition: all 0.5s ease-in-out;
