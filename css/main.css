@@ -645,9 +645,11 @@ h6 {
 .pricing-table{
   background: #f1f1f1;
   flex: 1;
-  margin: 50px;
-  margin-top: -220px;
+  /*margin: 50px;*/
+  /*margin-top: -220px;*/
+  margin-bottom: 20px;
   text-transform: uppercase;
+  min-height: 500px !important;
  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
  
@@ -731,11 +733,11 @@ h6 {
 background-image: linear-gradient(to right top, #1673ff, #0083ff, #0092fd, #019ff8, #3cabf2);
 }
 .table2 .pricing-header{
-  background-image: linear-gradient(to right top, #e3404e, #e14556, #df4a5d, #dd4f64, #da546b);
+  background-image: linear-gradient(to right top, #B721FF, #af1ef3, #b114f9, #b63dee, #be40f8);
  
 }
 .table3 .pricing-header{
-background-image: linear-gradient(to right top, #ffc75f, #fecd50, #fad341, #f4da2e, #ebe212);
+background-image: linear-gradient(to right top, #40e3b2, #3fd8aa, #3ad4a6, #4ee3b6, #3ae5b2);
 }
  
 .table1 .title{
@@ -743,18 +745,35 @@ background:#2C73D2;
  
 }
 .table2 .title{
-background:#EA6565;
+background:#B721FF;
 }
 .table3 .title{
-background:#FFC75F;
+background:#3ae5b2;
 }
  
 .table1 a{
+    background-color: #1673ff;
+    color: #eee;
+}
+.table1 a:hover{
+  background-color: #eee;
   color: #1673ff;
 }
+
 .table2 a{
-  color: #e14556;
+    background-color: #B721FF;
+    color: #eee;
 }
+.table2 a:hover{
+    background-color: #eee;
+    color: #B721FF;
+}
+
 .table3 a{
-  color: #ffc75f;
+    background-color: #3ae5b2;
+    color: #eee;
+}
+.table3 a:hover{
+    background-color: #eee;
+    color: #3ae5b2;
 }
