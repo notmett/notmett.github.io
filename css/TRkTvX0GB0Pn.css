@@ -1,0 +1,120 @@
+.main-background.csgo{
+    background-image:url(../images/OAvvg6memtRG.jpg)
+}
+.container .highlight{
+    background:url(../images/2EXol4ki3Fe1.jpg);
+    background-size:cover
+}
+@media (-webkit-min-device-pixel-ratio:2){
+    .container .highlight{
+        background:url(../images/highlight%402x.jpg);
+        background-size:cover
+    }
+}
+.container.bananas.cut-top{
+    background-position-y:-50px
+}
+.faceit-page .container h1.short{
+    background-image:linear-gradient(105deg,#258cbf,#4ed3be)
+}
+.faceit-page .letter .background-text{
+    font-size:160px
+}
+.faceit-page .letter h2{
+    max-width:250px;
+    margin-top:158px
+}
+.faceit-page.faceit-background{
+    background-image:url(../images/KAyncOkszWZa.png);
+    background-size:contain;
+    background-repeat:no-repeat
+}
+.cs-game-select{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    margin-top:80px
+}
+.cs-game-select *{
+    box-sizing:border-box;
+    padding:0;
+    margin:0
+}
+.cs-game-select__item{
+    background:#050a20;
+    box-shadow:inset 0 0 0 2px #232b46;
+    border-radius:24px;
+    width:328px;
+    cursor:pointer;
+    padding:38px;
+    transition:all .15s ease-in-out
+}
+.cs-game-select__item:hover{
+    transform:translateY(-12px)
+}
+.cs-game-select__item:hover,.cs-game-select__item:hover .cs-game-select__icon{
+    box-shadow:inset 0 0 0 2px rgba(78,211,190,.8)
+}
+@media screen and (max-width:1063px){
+    .cs-game-select__item{
+        width:calc(50% - 12px)
+    }
+    .cs-game-select__item:not(:last-of-type){
+        margin-bottom:24px
+    }
+    .cs-game-select__item br{
+        display:none
+    }
+}
+@media screen and (max-width:767px){
+    .cs-game-select__item{
+        width:100%
+    }
+    .cs-game-select__item:hover{
+        transform:translateY(0)
+    }
+}
+.cs-game-select__icon{
+    transition:all .15s ease-in-out;
+    background:#050a20;
+    box-shadow:inset 0 0 0 2px #232b46;
+    border-radius:60px;
+    width:64px;
+    height:64px
+}
+.cs-game-select__icon--matchmaking{
+    background:url(../fonts2/csgo.svg) 50% no-repeat
+}
+.cs-game-select__icon--faceit{
+    background:url(../fonts2/instagram.svg) 50% no-repeat
+}
+.cs-game-select__icon--esea{
+    background:url(../fonts2/discord.svg) 50% no-repeat;
+    background-size: 50%;
+}
+.cs-game-select__title{
+    font-size:20px;
+    font-weight:500;
+    color:#fff;
+    margin:32px 0 8px
+}
+.cs-game-select__text,.cs-game-select__title{
+    font-style:normal;
+    font-stretch:normal;
+    line-height:32px;
+    letter-spacing:.1px
+}
+.cs-game-select__text{
+    font-size:16px;
+    font-weight:400;
+    color:#979aae;
+    margin-bottom:32px
+}
+.cs-game-select__btn{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:56px
+}
