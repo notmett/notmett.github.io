@@ -3688,12 +3688,12 @@ ul li:before{
 
 .container .suntsmecher1{
     background:url(../fonts2/1.png) 50% no-repeat;
-    background-size: contain;
+    background-size: 25px;
     background-position: left;
 }
 .container .suntsmecher2{
     background:url(../fonts2/2.png) 50% no-repeat;
-    background-size: contain;
+    background-size: 25px;
     background-position: left;
 }
 .container .suntsmecher3{
@@ -3703,7 +3703,7 @@ ul li:before{
 }
 .container .suntsmecher4{
     background:url(../fonts2/4.png) 50% no-repeat;
-    background-size: contain;
+    background-size: 25px;
     background-position: left;
 }
 .container .suntsmecher5{
@@ -3713,12 +3713,12 @@ ul li:before{
 }
 .container .suntsmecher6{
     background:url(../fonts2/6.png) 50% no-repeat;
-    background-size: contain;
+    background-size: 25px;
     background-position: left;
 }
 .container .suntsmecher7{
     background:url(../fonts2/7.png) 50% no-repeat;
-    background-size: contain;
+    background-size: 25px;
     background-position: left;
 }
 
